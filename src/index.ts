@@ -36,5 +36,5 @@ export { default as SeriNoEtiketBasimPage } from './pages/SeriNoEtiketBasimPage'
 export type { SeriNoEtiketBasimPageProps } from './pages/SeriNoEtiketBasimPage';
 
 // Modül Tanımı ve Fabrikası
-export { createBarcodeModule, BarkodModule } from './createBarcodeModule';
+export { createBarcodeModule, BarkodModule, BarkodModule as BarkodTerminaliModule, BarkodModule as BarkodYonetimiModule } from './createBarcodeModule';
 export { default } from './createBarcodeModule';
